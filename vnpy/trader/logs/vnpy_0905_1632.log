@@ -1,0 +1,319 @@
+INFO: [2018-09-05 16:32:22.444][vtEngine.py:225][8452:MainThread] 接口不存在：SGIT
+INFO: [2018-09-05 16:32:22.444][vtEngine.py:225][8452:MainThread] 接口不存在：SGIT
+INFO: [2018-09-05 16:32:22.444][vtEngine.py:225][8452:MainThread] 接口不存在：SGIT
+INFO: [2018-09-05 16:32:22.446][vtEngine.py:225][8452:MainThread] 接口不存在：SGIT
+INFO: [2018-09-05 16:32:42.618][ctaEngine.py:582][8452:MainThread] CTA引擎启动成功
+INFO: [2018-09-05 16:32:47.230][ctaEngine.py:582][8452:MainThread] StrategyName:基类设置参数
+INFO: [2018-09-05 16:32:47.230][ctaEngine.py:582][8452:MainThread] S30_RB1001:策略初始化
+INFO: [2018-09-05 16:32:47.230][ctaEngine.py:582][8452:MainThread] S30_RB1001:__initGrids(),初始化网格交易器
+INFO: [2018-09-05 16:32:47.230][ctaEngine.py:582][8452:MainThread] S30_RB1001:初始化网格队列，upline:300,dnline:-300
+INFO: [2018-09-05 16:32:47.230][ctaEngine.py:582][8452:MainThread] S30_RB1001:开始加载上网格文件D:\ArcticFox\project\vnpy-master\vnpy\trader\app\ctaStrategy\data\S30_RB1001_upGrids.json
+INFO: [2018-09-05 16:32:47.232][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:300.0,close:295.0,stop:0.0
+INFO: [2018-09-05 16:32:47.232][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:300.0/False;c:295.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.232][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:303.0,close:298.0,stop:0.0
+INFO: [2018-09-05 16:32:47.232][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:303.0/False;c:298.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.232][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:306.0,close:301.0,stop:0.0
+INFO: [2018-09-05 16:32:47.232][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:306.0/False;c:301.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.232][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:309.0,close:304.0,stop:0.0
+INFO: [2018-09-05 16:32:47.232][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:309.0/False;c:304.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.232][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:312.0,close:307.0,stop:0.0
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:312.0/False;c:307.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:315.0,close:310.0,stop:0.0
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:315.0/False;c:310.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:318.0,close:313.0,stop:0.0
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:318.0/False;c:313.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:321.0,close:316.0,stop:0.0
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:321.0/False;c:316.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:324.0,close:319.0,stop:0.0
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:324.0/False;c:319.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:327.0,close:322.0,stop:0.0
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:327.0/False;c:322.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:330.0,close:325.0,stop:0.0
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:330.0/False;c:325.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:333.0,close:328.0,stop:0.0
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:333.0/False;c:328.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:336.0,close:331.0,stop:0.0
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:336.0/False;c:331.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:339.0,close:334.0,stop:0.0
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:339.0/False;c:334.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:342.0,close:337.0,stop:0.0
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:342.0/False;c:337.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:上网格从文件加载完成
+INFO: [2018-09-05 16:32:47.233][ctaEngine.py:582][8452:MainThread] S30_RB1001:开始加载上网格文件D:\ArcticFox\project\vnpy-master\vnpy\trader\app\ctaStrategy\data\S30_RB1001_dnGrids.json
+INFO: [2018-09-05 16:32:47.234][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-300.0,close:-295.0,stop:0.0
+INFO: [2018-09-05 16:32:47.234][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-300.0/False;c:-295.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.234][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-303.0,close:-298.0,stop:0.0
+INFO: [2018-09-05 16:32:47.234][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-303.0/False;c:-298.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.234][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-306.0,close:-301.0,stop:0.0
+INFO: [2018-09-05 16:32:47.234][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-306.0/False;c:-301.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.234][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-309.0,close:-304.0,stop:0.0
+INFO: [2018-09-05 16:32:47.234][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-309.0/False;c:-304.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.234][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-312.0,close:-307.0,stop:0.0
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-312.0/False;c:-307.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-315.0,close:-310.0,stop:0.0
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-315.0/False;c:-310.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-318.0,close:-313.0,stop:0.0
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-318.0/False;c:-313.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-321.0,close:-316.0,stop:0.0
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-321.0/False;c:-316.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-324.0,close:-319.0,stop:0.0
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-324.0/False;c:-319.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-327.0,close:-322.0,stop:0.0
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-327.0/False;c:-322.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-330.0,close:-325.0,stop:0.0
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-330.0/False;c:-325.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-333.0,close:-328.0,stop:0.0
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-333.0/False;c:-328.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-336.0,close:-331.0,stop:0.0
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-336.0/False;c:-331.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-339.0,close:-334.0,stop:0.0
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-339.0/False;c:-334.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-342.0,close:-337.0,stop:0.0
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-342.0/False;c:-337.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:下网格从文件加载完成
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:__initGrids(),初始化网格完成
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] S30_RB1001:策略初始化完成
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] 添加合约rb1710与策略的匹配目录
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] 向gateway订阅合约rb1710
+INFO: [2018-09-05 16:32:47.236][ctaEngine.py:582][8452:MainThread] 添加合约rb1801与策略的匹配目录
+INFO: [2018-09-05 16:32:47.237][ctaEngine.py:582][8452:MainThread] 向gateway订阅合约rb1801
+INFO: [2018-09-05 16:32:47.237][ctaEngine.py:582][8452:MainThread] StrategyName:基类设置参数
+INFO: [2018-09-05 16:32:47.237][ctaEngine.py:582][8452:MainThread] S30_HCRB10:策略初始化
+INFO: [2018-09-05 16:32:47.237][ctaEngine.py:582][8452:MainThread] S30_HCRB10:__initGrids(),初始化网格交易器
+INFO: [2018-09-05 16:32:47.237][ctaEngine.py:582][8452:MainThread] S30_HCRB10:初始化网格队列，upline:300,dnline:10
+INFO: [2018-09-05 16:32:47.237][ctaEngine.py:582][8452:MainThread] S30_HCRB10:开始加载上网格文件D:\ArcticFox\project\vnpy-master\vnpy\trader\app\ctaStrategy\data\S30_HCRB10_upGrids.json
+INFO: [2018-09-05 16:32:47.239][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:300.0,close:295.0,stop:0.0
+INFO: [2018-09-05 16:32:47.239][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:300.0/False;c:295.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.239][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:303.0,close:298.0,stop:0.0
+INFO: [2018-09-05 16:32:47.239][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:303.0/False;c:298.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.239][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:306.0,close:301.0,stop:0.0
+INFO: [2018-09-05 16:32:47.239][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:306.0/False;c:301.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.239][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:309.0,close:304.0,stop:0.0
+INFO: [2018-09-05 16:32:47.239][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:309.0/False;c:304.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.239][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:312.0,close:307.0,stop:0.0
+INFO: [2018-09-05 16:32:47.239][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:312.0/False;c:307.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.239][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:315.0,close:310.0,stop:0.0
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:315.0/False;c:310.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:318.0,close:313.0,stop:0.0
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:318.0/False;c:313.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:321.0,close:316.0,stop:0.0
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:321.0/False;c:316.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:324.0,close:319.0,stop:0.0
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:324.0/False;c:319.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:327.0,close:322.0,stop:0.0
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:327.0/False;c:322.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:330.0,close:325.0,stop:0.0
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:330.0/False;c:325.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:333.0,close:328.0,stop:0.0
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:333.0/False;c:328.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:336.0,close:331.0,stop:0.0
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:336.0/False;c:331.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:339.0,close:334.0,stop:0.0
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:339.0/False;c:334.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:342.0,close:337.0,stop:0.0
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:342.0/False;c:337.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:上网格从文件加载完成
+INFO: [2018-09-05 16:32:47.240][ctaEngine.py:582][8452:MainThread] S30_HCRB10:开始加载上网格文件D:\ArcticFox\project\vnpy-master\vnpy\trader\app\ctaStrategy\data\S30_HCRB10_dnGrids.json
+INFO: [2018-09-05 16:32:47.242][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:10.0,close:15.0,stop:0.0
+INFO: [2018-09-05 16:32:47.242][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:10.0/False;c:15.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.242][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:7.0,close:12.0,stop:0.0
+INFO: [2018-09-05 16:32:47.242][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:7.0/False;c:12.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.242][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:4.0,close:9.0,stop:0.0
+INFO: [2018-09-05 16:32:47.242][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:4.0/False;c:9.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.242][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:1.0,close:6.0,stop:0.0
+INFO: [2018-09-05 16:32:47.242][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:1.0/False;c:6.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.242][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:-2.0,close:3.0,stop:0.0
+INFO: [2018-09-05 16:32:47.242][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:-2.0/False;c:3.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:-5.0,close:0.0,stop:0.0
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:-5.0/False;c:0.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:-8.0,close:-3.0,stop:0.0
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:-8.0/False;c:-3.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:-11.0,close:-6.0,stop:0.0
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:-11.0/False;c:-6.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:-14.0,close:-9.0,stop:0.0
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:-14.0/False;c:-9.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:-17.0,close:-12.0,stop:0.0
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:-17.0/False;c:-12.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:-20.0,close:-15.0,stop:0.0
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:-20.0/False;c:-15.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:-23.0,close:-18.0,stop:0.0
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:-23.0/False;c:-18.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:-26.0,close:-21.0,stop:0.0
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:-26.0/False;c:-21.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:-29.0,close:-24.0,stop:0.0
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:-29.0/False;c:-24.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:load Grid:open:-32.0,close:-27.0,stop:0.0
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:o:-32.0/False;c:-27.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:下网格从文件加载完成
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:__initGrids(),初始化网格完成
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] S30_HCRB10:策略初始化完成
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] 添加合约hc1710与策略的匹配目录
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] 向gateway订阅合约hc1710
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] 添加合约rb1710与策略的匹配目录
+INFO: [2018-09-05 16:32:47.243][ctaEngine.py:582][8452:MainThread] 向gateway订阅合约rb1710
+INFO: [2018-09-05 16:32:47.244][vtEngine.py:225][8452:MainThread] 数据查询失败，MongoDB没有连接
+INFO: [2018-09-05 16:32:47.244][vtEngine.py:225][8452:MainThread] 数据查询失败，MongoDB没有连接
+INFO: [2018-09-05 16:32:47.723][ctaEngine.py:582][8452:MainThread] 策略加载成功
+INFO: [2018-09-05 16:33:15.157][ctaEngine.py:582][8452:MainThread] 请勿重复初始化策略实例：S30_RB1001
+INFO: [2018-09-05 16:36:04.158][vtEngine.py:225][8452:MainThread] MongoDB连接成功
+INFO: [2018-09-05 16:36:28.46][ctaEngine.py:582][8452:MainThread] S30_RB1001:清除所有持仓状态
+INFO: [2018-09-05 16:36:28.46][ctaEngine.py:582][8452:MainThread] S30_RB1001:保存下网格
+INFO: [2018-09-05 16:36:28.48][ctaEngine.py:582][8452:MainThread] S30_RB1001:保存上网格
+INFO: [2018-09-05 16:36:28.49][ctaEngine.py:582][8452:MainThread] S30_RB1001:停止
+INFO: [2018-09-05 16:36:28.49][ctaEngine.py:582][8452:MainThread] S30_HCRB10:清除所有持仓状态
+INFO: [2018-09-05 16:36:28.49][ctaEngine.py:582][8452:MainThread] S30_HCRB10:保存下网格
+INFO: [2018-09-05 16:36:28.49][ctaEngine.py:582][8452:MainThread] S30_HCRB10:保存上网格
+INFO: [2018-09-05 16:36:28.51][ctaEngine.py:582][8452:MainThread] S30_HCRB10:停止
+INFO: [2018-09-05 16:36:54.256][vtGateway.py:108][8452:MainThread] 行情接口未实例化，创建实例
+INFO: [2018-09-05 16:36:54.276][vtGateway.py:108][8452:MainThread] 交易接口未实例化，创建实例
+INFO: [2018-09-05 16:36:54.276][vtGateway.py:108][8452:MainThread] 读取连接配置出错，请检查
+INFO: [2018-09-05 16:37:09.601][vtGateway.py:108][8452:MainThread] 行情接口未实例化，创建实例
+INFO: [2018-09-05 16:37:09.601][vtGateway.py:108][8452:MainThread] 交易接口未实例化，创建实例
+INFO: [2018-09-05 16:37:09.601][vtGateway.py:108][8452:MainThread] 读取连接配置出错，请检查
+INFO: [2018-09-05 16:37:13.778][vtGateway.py:108][8452:MainThread] 行情接口未实例化，创建实例
+INFO: [2018-09-05 16:37:13.779][vtGateway.py:108][8452:MainThread] 交易接口未实例化，创建实例
+INFO: [2018-09-05 16:37:13.779][vtGateway.py:108][8452:MainThread] 连接行情服务器
+INFO: [2018-09-05 16:37:13.795][vtGateway.py:108][8452:MainThread] 连接交易服务器
+INFO: [2018-09-05 16:37:13.798][vtGateway.py:108][8452:MainThread] 未连接，增加合约rb1710至待订阅列表
+INFO: [2018-09-05 16:37:13.798][vtGateway.py:108][8452:MainThread] 未连接，增加合约rb1801至待订阅列表
+INFO: [2018-09-05 16:37:13.799][vtGateway.py:108][8452:MainThread] 未连接，增加合约hc1710至待订阅列表
+INFO: [2018-09-05 16:37:13.799][vtGateway.py:108][8452:MainThread] 未连接，增加合约rb1710至待订阅列表
+INFO: [2018-09-05 16:37:13.841][vtGateway.py:108][8452:Dummy-4] 行情服务器连接成功
+INFO: [2018-09-05 16:37:13.868][vtGateway.py:108][8452:Dummy-5] 交易服务器连接成功
+INFO: [2018-09-05 16:37:13.894][vtGateway.py:108][8452:Dummy-4] 行情服务器登录完成
+INFO: [2018-09-05 16:37:13.894][vtGateway.py:108][8452:Dummy-4] 订阅合约:rb1710
+INFO: [2018-09-05 16:37:13.894][vtGateway.py:108][8452:Dummy-4] 订阅合约:rb1801
+INFO: [2018-09-05 16:37:13.894][vtGateway.py:108][8452:Dummy-4] 订阅合约:hc1710
+INFO: [2018-09-05 16:37:13.894][vtGateway.py:108][8452:Dummy-4] 订阅合约:rb1710
+INFO: [2018-09-05 16:37:13.907][vtGateway.py:108][8452:Dummy-5] 交易服务器登录完成
+INFO: [2018-09-05 16:37:14.49][vtGateway.py:108][8452:Dummy-5] 结算信息确认完成
+INFO: [2018-09-05 16:37:14.154][vtGateway.py:108][8452:Dummy-5] 交易合约信息获取完成
+INFO: [2018-09-05 16:37:19.614][vtGateway.py:108][8452:Thread-1] 订阅合约:AP901
+INFO: [2018-09-05 16:37:19.615][vtEngine.py:225][8452:Thread-1] 自动订阅合约AP901
+INFO: [2018-09-05 16:37:56.306][vtEngine.py:225][8452:MainThread] gw:[CTP/True][CTP_Prod/False][CTP_Post/False][CTP_EBF/False][CTP_JR/False][CTP_JR2/False]
+INFO: [2018-09-05 16:37:56.306][vtEngine.py:225][8452:MainThread] cta:[AP901;15:00:03.5];,[S30_RB1001:I:True;T:False][S30_HCRB10:I:True;T:False]
+INFO: [2018-09-05 16:38:23.630][ctaEngine.py:582][8452:MainThread] 请勿重复初始化策略实例：S30_RB1001
+INFO: [2018-09-05 16:38:28.278][ctaEngine.py:582][8452:MainThread] S30_RB1001:策略强制初始化
+INFO: [2018-09-05 16:38:28.278][ctaEngine.py:582][8452:MainThread] S30_RB1001:__initGrids(),初始化网格交易器
+INFO: [2018-09-05 16:38:28.278][ctaEngine.py:582][8452:MainThread] S30_RB1001:初始化网格队列，upline:300,dnline:-300
+INFO: [2018-09-05 16:38:28.278][ctaEngine.py:582][8452:MainThread] S30_RB1001:开始加载上网格文件D:\ArcticFox\project\vnpy-master\vnpy\trader\app\ctaStrategy\data\S30_RB1001_upGrids.json
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:300.0,close:295.0,stop:0.0
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:300.0/False;c:295.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:303.0,close:298.0,stop:0.0
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:303.0/False;c:298.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:306.0,close:301.0,stop:0.0
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:306.0/False;c:301.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:309.0,close:304.0,stop:0.0
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:309.0/False;c:304.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:312.0,close:307.0,stop:0.0
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:312.0/False;c:307.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:315.0,close:310.0,stop:0.0
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:315.0/False;c:310.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:318.0,close:313.0,stop:0.0
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:318.0/False;c:313.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:321.0,close:316.0,stop:0.0
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:321.0/False;c:316.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:324.0,close:319.0,stop:0.0
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:324.0/False;c:319.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:327.0,close:322.0,stop:0.0
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:327.0/False;c:322.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:330.0,close:325.0,stop:0.0
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:330.0/False;c:325.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.279][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:333.0,close:328.0,stop:0.0
+INFO: [2018-09-05 16:38:28.280][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:333.0/False;c:328.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.280][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:336.0,close:331.0,stop:0.0
+INFO: [2018-09-05 16:38:28.280][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:336.0/False;c:331.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.280][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:339.0,close:334.0,stop:0.0
+INFO: [2018-09-05 16:38:28.280][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:339.0/False;c:334.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.280][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:342.0,close:337.0,stop:0.0
+INFO: [2018-09-05 16:38:28.280][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:342.0/False;c:337.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.280][ctaEngine.py:582][8452:MainThread] S30_RB1001:上网格从文件加载完成
+INFO: [2018-09-05 16:38:28.280][ctaEngine.py:582][8452:MainThread] S30_RB1001:开始加载上网格文件D:\ArcticFox\project\vnpy-master\vnpy\trader\app\ctaStrategy\data\S30_RB1001_dnGrids.json
+INFO: [2018-09-05 16:38:28.280][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-300.0,close:-295.0,stop:0.0
+INFO: [2018-09-05 16:38:28.280][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-300.0/False;c:-295.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-303.0,close:-298.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-303.0/False;c:-298.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-306.0,close:-301.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-306.0/False;c:-301.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-309.0,close:-304.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-309.0/False;c:-304.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-312.0,close:-307.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-312.0/False;c:-307.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-315.0,close:-310.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-315.0/False;c:-310.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-318.0,close:-313.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-318.0/False;c:-313.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-321.0,close:-316.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-321.0/False;c:-316.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-324.0,close:-319.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-324.0/False;c:-319.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-327.0,close:-322.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-327.0/False;c:-322.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-330.0,close:-325.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-330.0/False;c:-325.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-333.0,close:-328.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-333.0/False;c:-328.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-336.0,close:-331.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-336.0/False;c:-331.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-339.0,close:-334.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-339.0/False;c:-334.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:load Grid:open:-342.0,close:-337.0,stop:0.0
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:o:-342.0/False;c:-337.0/False,r:/opentime:None/ordertime:None
+INFO: [2018-09-05 16:38:28.282][ctaEngine.py:582][8452:MainThread] S30_RB1001:下网格从文件加载完成
+INFO: [2018-09-05 16:38:28.283][ctaEngine.py:582][8452:MainThread] S30_RB1001:__initGrids(),初始化网格完成
+INFO: [2018-09-05 16:38:28.283][ctaEngine.py:582][8452:MainThread] S30_RB1001:策略初始化完成
+INFO: [2018-09-05 16:38:30.421][ctaEngine.py:582][8452:MainThread] 请勿重复初始化策略实例：S30_RB1001
+INFO: [2018-09-05 16:38:31.878][ctaEngine.py:582][8452:MainThread] S30_RB1001:清除所有持仓状态
+INFO: [2018-09-05 16:38:31.878][ctaEngine.py:582][8452:MainThread] S30_RB1001:保存下网格
+INFO: [2018-09-05 16:38:31.880][ctaEngine.py:582][8452:MainThread] S30_RB1001:保存上网格
+INFO: [2018-09-05 16:38:31.881][ctaEngine.py:582][8452:MainThread] S30_RB1001:停止
+INFO: [2018-09-05 17:02:24.302][vtGateway.py:108][8452:Dummy-4] 行情服务器连接断开
+INFO: [2018-09-05 17:02:24.348][vtGateway.py:108][8452:Dummy-4] 行情服务器连接成功
+INFO: [2018-09-05 17:02:26.720][vtGateway.py:108][8452:Dummy-5] 交易服务器连接断开
+INFO: [2018-09-05 17:02:27.559][vtGateway.py:108][8452:Dummy-4] 行情服务器连接断开
+INFO: [2018-09-05 17:07:26.874][vtGateway.py:108][8452:Dummy-5] 交易服务器连接成功
+INFO: [2018-09-05 17:07:30.539][vtGateway.py:108][8452:Dummy-5] 交易服务器连接断开
+INFO: [2018-09-05 17:12:27.813][vtGateway.py:108][8452:Dummy-4] 行情服务器连接成功
+INFO: [2018-09-05 17:12:31.539][vtGateway.py:108][8452:Dummy-4] 行情服务器连接断开
+INFO: [2018-09-05 17:17:30.790][vtGateway.py:108][8452:Dummy-5] 交易服务器连接成功
+INFO: [2018-09-05 17:17:34.522][vtGateway.py:108][8452:Dummy-5] 交易服务器连接断开
+INFO: [2018-09-05 17:22:31.786][vtGateway.py:108][8452:Dummy-4] 行情服务器连接成功
+INFO: [2018-09-05 17:22:35.516][vtGateway.py:108][8452:Dummy-4] 行情服务器连接断开
+INFO: [2018-09-05 17:27:34.786][vtGateway.py:108][8452:Dummy-5] 交易服务器连接成功
+INFO: [2018-09-05 17:27:38.506][vtGateway.py:108][8452:Dummy-5] 交易服务器连接断开
+INFO: [2018-09-05 17:32:35.759][vtGateway.py:108][8452:Dummy-4] 行情服务器连接成功
+INFO: [2018-09-05 17:32:39.506][vtGateway.py:108][8452:Dummy-4] 行情服务器连接断开
+INFO: [2018-09-05 17:37:48.763][vtGateway.py:108][8452:Dummy-5] 交易服务器连接成功
+INFO: [2018-09-05 17:37:52.486][vtGateway.py:108][8452:Dummy-5] 交易服务器连接断开
+INFO: [2018-09-05 17:47:29.871][vtGateway.py:108][8452:Dummy-4] 行情服务器连接成功
+INFO: [2018-09-05 17:47:33.476][vtGateway.py:108][8452:Dummy-4] 行情服务器连接断开
+INFO: [2018-09-05 17:52:32.874][vtGateway.py:108][8452:Dummy-5] 交易服务器连接成功
+INFO: [2018-09-05 17:52:36.467][vtGateway.py:108][8452:Dummy-5] 交易服务器连接断开
+INFO: [2018-09-05 17:57:33.740][vtGateway.py:108][8452:Dummy-4] 行情服务器连接成功
+INFO: [2018-09-05 17:57:37.460][vtGateway.py:108][8452:Dummy-4] 行情服务器连接断开
+INFO: [2018-09-05 18:07:56.838][vtGateway.py:108][8452:Dummy-5] 交易服务器连接成功
+INFO: [2018-09-05 18:08:00.440][vtGateway.py:108][8452:Dummy-5] 交易服务器连接断开
+INFO: [2018-09-05 18:16:57.894][vtGateway.py:108][8452:Dummy-4] 行情服务器连接成功
+INFO: [2018-09-05 18:16:57.934][vtGateway.py:108][8452:Dummy-4] 行情服务器登录完成
+INFO: [2018-09-05 18:16:57.934][vtGateway.py:108][8452:Dummy-4] 订阅合约:AP901
+INFO: [2018-09-05 18:16:57.936][vtGateway.py:108][8452:Dummy-4] 订阅合约:rb1710
+INFO: [2018-09-05 18:16:57.936][vtGateway.py:108][8452:Dummy-4] 订阅合约:rb1801
+INFO: [2018-09-05 18:16:57.936][vtGateway.py:108][8452:Dummy-4] 订阅合约:hc1710
+INFO: [2018-09-05 18:16:57.936][vtGateway.py:108][8452:Dummy-4] 订阅合约:rb1710
+INFO: [2018-09-05 18:17:00.677][vtGateway.py:108][8452:Dummy-5] 交易服务器连接成功
+INFO: [2018-09-05 18:17:07.650][vtGateway.py:97][8452:Dummy-5] CTP:[7]:CTP:还没有初始化
+INFO: [2018-09-05 18:18:49.664][vtGateway.py:108][8452:Dummy-5] 交易服务器连接断开
+INFO: [2018-09-05 18:18:49.724][vtGateway.py:108][8452:Dummy-5] 交易服务器连接成功
+INFO: [2018-09-05 18:18:53.454][vtGateway.py:108][8452:Dummy-5] 交易服务器连接断开
+INFO: [2018-09-05 18:22:43.585][vtGateway.py:108][8452:Dummy-5] 交易服务器连接成功
+INFO: [2018-09-05 18:24:53.510][vtGateway.py:108][8452:Dummy-4] 行情服务器连接断开
+INFO: [2018-09-05 18:24:53.562][vtGateway.py:108][8452:Dummy-4] 行情服务器连接成功
+INFO: [2018-09-05 18:24:53.664][vtGateway.py:108][8452:Dummy-5] 交易服务器连接断开
+INFO: [2018-09-05 18:24:56.726][vtGateway.py:108][8452:Dummy-5] 交易服务器连接成功
+INFO: [2018-09-05 18:24:56.775][vtGateway.py:97][8452:Dummy-5] CTP:[7]:CTP:还没有初始化
+INFO: [2018-09-05 18:24:57.513][vtGateway.py:108][8452:Dummy-4] 行情服务器登录完成
+INFO: [2018-09-05 18:24:57.513][vtGateway.py:108][8452:Dummy-4] 订阅合约:AP901
+INFO: [2018-09-05 18:24:57.513][vtGateway.py:108][8452:Dummy-4] 订阅合约:rb1710
+INFO: [2018-09-05 18:24:57.513][vtGateway.py:108][8452:Dummy-4] 订阅合约:rb1801
+INFO: [2018-09-05 18:24:57.515][vtGateway.py:108][8452:Dummy-4] 订阅合约:hc1710
+INFO: [2018-09-05 18:24:57.515][vtGateway.py:108][8452:Dummy-4] 订阅合约:rb1710
