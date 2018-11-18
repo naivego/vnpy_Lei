@@ -1,92 +1,21 @@
 # encoding: UTF-8
 
 import os
-
 import csv
 import copy
 import re
 import imp
+import sys
 import numpy  as np
 import pandas as pd
 import pickle as pk
 from collections import OrderedDict as OD
 from time import localtime, strftime
-import importlib
 
-# matplotlib.use('TkAgg')
-from matplotlib.finance import candlestick2_ohlc
-import matplotlib.ticker as ticker
-import matplotlib.pyplot as plt
 from ctaBase import *
 from vnbt_metrics import calc_metrics
 
 
-
-def plotsdk(stkdf, disfactors=None, Symbol='symbol', has2wind = False, Period =''):
-    quotes= stkdf.loc[:]
-    # quotes['mid'] = 0
-    xdate = [itime for itime in quotes.index]
-    mainwindfs = []
-    subwindfs = ['ATR', 'grst', 'KD_k', 'KD_d']
-
-    mfs = []
-    sfs = []
-    if has2wind:
-        fig, (ax, ax1) = plt.subplots(2, sharex=True, figsize=(16, 7))
-    else:
-        fig, ax = plt.subplots(1, sharex=True, figsize=(16,6))
-
-    #fig, ax = plt.subplots()
-    fig.subplots_adjust(bottom=0.2, left=0.05)
-    def mydate(x, pos):
-        try:
-            return xdate[int(x)]
-        except IndexError:
-            return ''
-    candlestick2_ohlc(ax, quotes['open'], quotes['high'], quotes['low'], quotes['close'], width=0.5, colorup='r', colordown='green')
-    ax.xaxis.set_major_locator(ticker.MaxNLocator(4))
-
-    plt.title(Symbol + '_' + Period)
-    plt.xlabel("time")
-    plt.ylabel("price")
-
-    ax.xaxis.set_major_formatter(ticker.FuncFormatter(mydate))
-    # fig.autofmt_xdate()
-    # print quotes.columns
-    for disf in disfactors:
-        if disf and disf in quotes.columns:
-            if disf in mainwindfs:
-                ax2 = ax.twinx()
-                quotes[disf].plot(ax=ax2)
-                ax2.xaxis.set_major_formatter(ticker.FuncFormatter(mydate))
-                mfs.append(disf)
-                continue
-
-            if disf in subwindfs:
-                pass
-                # ax3 = ax1.twinx()
-                quotes[disf].plot(ax=ax1)
-                ax1.xaxis.set_major_formatter(ticker.FuncFormatter(mydate))
-                sfs.append(disf)
-            #
-            else:
-                quotes[disf].plot(ax=ax)
-                ax.xaxis.set_major_formatter(ticker.FuncFormatter(mydate))
-                mfs.append(disf)
-    # quotes['mid'].plot(ax=ax1)
-
-    fig.tight_layout()
-    plt.grid()
-    # plt.legend(disfactors)
-    ax.legend(mfs)
-    if has2wind:
-        ax1.legend(sfs)
-    plt.show()
-
-    pass
-
-
-# ----------------------------------------------------------------------
 def sort_period_list(Period_List):
     return [SEQUENCE_PERIOD_DICT[x] for x in sorted([PERIOD_SEQUENCE_DICT[y] for y in Period_List])]
 

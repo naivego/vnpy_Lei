@@ -161,14 +161,35 @@ class DbManager(object):
             collection.insert_one(bar.__dict__)
 
 # ----------------------------------------------------------
-    def saveDfToMongo(self, dbname, var, dfdata, indexcol= 'datetime'):
+    def saveDfToMongo(self, dbname, var, dfdata, indexcol= 'datetime', adddt = True):
         df = dfdata.copy(deep= True)
         if indexcol:
             df[indexcol] = df.index
+        if adddt:
+            if 'date' not in df.columns and 'datetime' in df.columns:
+                df['date'] = [dt.split(' ')[0] for dt in df['datetime']]
+            if 'time' not in df.columns and 'datetime' in df.columns:
+                df['time'] = [dt.split(' ')[1] for dt in df['datetime']]
+
         for i in range(0, df.index.size, 100):
             sdf = df.ix[i:i+100,:]
             self.dbClient[dbname][var].insert(json.loads(sdf.T.to_json(), object_pairs_hook=OrderedDict).values())
             # self.dbClient[dbname][var].insert(df.to_dict())
+
+# ----------------------------------------------------------
+    def correctDatas(self):
+        # 自2016年5月3日起，螺纹钢、热轧卷板、石油沥青期货品种的连续交易时间由每周一至周五的21：00至次日1：00调整为21：00至23：00
+        if 1:
+            vars = ['RB', 'HC', 'BU']
+            for var in vars:
+                mycol = self.dbClient['Dom_M'][var]
+                flt = {"date": {'$gt': "2016-05-02"}, '$or': [{"time": {'$gt': "23:00:00"}}, {"time": {'$lt': "03:00:00"}}]}   #'$regex': hh
+                self.dbCursor = mycol.find(flt).sort('datetime', pymongo.ASCENDING)
+                datas = list(self.dbCursor)
+                if len(datas) > 0:
+                    pass
+                    x = mycol.delete_many(flt)
+                    print(x.deleted_count, " is to be del")
 
 # ----------------------------------------------------------
 def csvtodb():
@@ -287,29 +308,36 @@ if __name__ == '__main__':
     # ------------------------从csv生成Bar_M并存入mogodb
     #----------------------------------------------------
     if 0:
-        periods = ['M']  # 'd', 'M', 'M30'
-
-        vars =  ['CU'] # ['V','IF','TA','AU','RB','I','CU']
+        periods = ['M', 'M5', 'M15', 'M30', 'H', 'd']  # ['M'] #
+        vars = ['J','IF','IC','IH','TA','RB','I','CU']  # ['RB']#
         for period in periods:
-            domdir = r'D:\lab\Dom' + '/' + period
+            domdir = r'D:\lab\Domnew' + '/' + period
             for var in vars:
+                print 'saveDfToMongo for: ', var, ' period:', period
                 csvfile = os.path.join(domdir, var + '_' + period + '.csv')
                 df = pd.read_csv(csvfile, index_col=0, encoding='gbk')
-                af = opnbarpros(var, df)
+                if 0:   # #----剔除集合竞价bar
+                    af = opnbarpros(var, df)
+                else:
+                    af = df
                 af['vtSymbol'] = var
+
                 dbm.saveDfToMongo('Dom_' + period, var, af)
     #----------------------------------------------------
-
+    if 0:
+        dbm.correctDatas()
 
     # ------------------------从mongodb读取Bar_M并合成多周期bar并入库
     if 1:
         makebarconfig = {
-            # 'M45': ['TA', 'RB'], #'V'
-            # 'M80': ['IF'],
+            # 'M15': ['RB'],
+            # 'M30': ['RB'], #'V'
+            # 'M60': ['RB'],
+
             # 'M75': ['TA', 'RB'],
             # 'M111': ['AU'],
             'M115': ['RB'],
-            # 'M125': ['I'],
+            # 'M125': ['RB'],
             # 'M155': ['CU'],
         }
         db_bar_ms= dbm.dbClient['Dom_M'].collection_names()

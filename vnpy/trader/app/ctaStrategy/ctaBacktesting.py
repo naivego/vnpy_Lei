@@ -135,7 +135,7 @@ class BacktestingEngine(object):
         self.percentLimit = 30              # 投资仓位比例上限
 
         # 回测计算相关
-        self.calculateMode = self.REALTIME_MODE # self.FINAL_MODE
+        self.calculateMode = self.REALTIME_MODE  # self.FINAL_MODE | self.REALTIME_MODE
         self.usageCompounding = False       # 是否使用简单复利 （只针对FINAL_MODE有效）
 
         self.initCapital = 1000000            # 期初资金
@@ -3367,6 +3367,7 @@ class BacktestingEngine(object):
             
         # 绘图
         import matplotlib.pyplot as plt
+        import matplotlib.ticker as ticker
         import numpy as np
 
         try:

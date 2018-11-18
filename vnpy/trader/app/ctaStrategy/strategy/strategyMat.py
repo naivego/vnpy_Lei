@@ -27,7 +27,7 @@ class MatStrategy(CtaTemplate):
     atrMaLength = 10        # 计算ATR均线的窗口数
     rsiLength = 5           # 计算RSI的窗口数
     rsiEntry = 16           # RSI的开仓信号
-    trailingPercent = 8.0   # 百分比移动止损
+    trailingPercent = 18.0   # 百分比移动止损
     initDays = 10           # 初始化数据所用的天数
     fixedSize = 1           # 固定每次交易的数量
     s1fundpct = 1.0         # 按资金比例信号1每次开仓市值占比
@@ -108,8 +108,6 @@ class MatStrategy(CtaTemplate):
         # 策略时方便（更多是个编程习惯的选择）
 
         # --------------------------------------------------数据列表设置
-        # setting['vada1'] = {'var': '', 'period': 'M115'}
-        # setting['vada2'] = {'var': '', 'period': 'M60'}
         self.vadas = {}
         trdvar = ctaEngine.symbol
         self.symbol = ctaEngine.symbol
@@ -215,7 +213,7 @@ class MatStrategy(CtaTemplate):
         print 'onBar: ', bar.datetime
         if bar.close<1:
             return
-        if bar.datetime >= '2014-07-07':
+        if bar.datetime >= '2017-07-07':
             print 'chk'
         for orderID in self.orderList:
             self.cancelOrder(orderID)
@@ -340,10 +338,10 @@ class MatStrategy(CtaTemplate):
             sdop = None
             sdsize = 0
             if (lgcont11 or lgcont12 or lgcont13) and lgcont14:
-                sdop = (self.usr_highArr[-2]- self.usr_lowArr[-2]) * 0.8  + self.usr_lowArr[-2]
+                sdop = self.usr_highArr[-2] * 1.002 # (self.usr_highArr[-2]- self.usr_lowArr[-2]) * 0.8  + self.usr_lowArr[-2]
                 sdsize = round(self.ctaEngine.capital * self.s1fundpct / self.ctaEngine.Multiplier[self.vtSymbol]/sdop)
             elif lgcont2:
-                sdop = bar.close + 2 * self.ctaEngine.Tick_Size[self.vtSymbol]
+                sdop = bar.close + 0 * self.ctaEngine.Tick_Size[self.vtSymbol]
                 sdsize = round(self.ctaEngine.capital * self.s2fundpct / self.ctaEngine.Multiplier[self.vtSymbol]/sdop)
             if sdsize>0:
                 orderID = self.buy(sdop, sdsize)
@@ -352,10 +350,10 @@ class MatStrategy(CtaTemplate):
             sdop = None
             sdsize = 0
             if (stcont11 or stcont12 or stcont13) and stcont14:
-                sdop = (self.usr_highArr[-2]- self.usr_lowArr[-2]) * 0.2  + self.usr_lowArr[-2]
+                sdop = self.usr_lowArr[-2] * 0.998  # (self.usr_highArr[-2]- self.usr_lowArr[-2]) * 0.2  + self.usr_lowArr[-2]
                 sdsize = round(self.ctaEngine.capital * self.s1fundpct / self.ctaEngine.Multiplier[self.vtSymbol] / sdop)
             elif stcont2:
-                sdop = bar.close -2 * self.ctaEngine.Tick_Size[self.vtSymbol]
+                sdop = bar.close - 0 * self.ctaEngine.Tick_Size[self.vtSymbol]
                 sdsize = round(self.ctaEngine.capital * self.s2fundpct / self.ctaEngine.Multiplier[self.vtSymbol] / sdop)
             if sdsize>0:
                 orderID = self.short(sdop, sdsize)
@@ -373,16 +371,16 @@ class MatStrategy(CtaTemplate):
             self.orderList.append(orderID)
 
             #---------信号平仓----
-            sgn1spcont = bar.low < self.usr_lowArr[-2] - atrval*0.0
+            sgn1spcont = 1 or  bar.low < self.usr_lowArr[-2] - atrval*0.0
             if sgn1spcont:
-                sdsp = self.usr_lowArr[-2] - atrval*0.0 # bar.close - 0 * self.ctaEngine.Tick_Size[self.vtSymbol]
+                sdsp = self.usr_lowArr[-2] - atrval*0.0  # bar.close - 0 * self.ctaEngine.Tick_Size[self.vtSymbol]
                 orderID =self.sell(sdsp, abs(self.pos), stop=True)
                 self.orderList.append(orderID)
 
             #-------- 获利止盈 ----
-            sgn1tpcont = bar.close > self.usr_ma1Arr[-1] * 1.03
+            sgn1tpcont = 1 or bar.close > self.usr_ma1Arr[-1] * 1.03
             if sgn1tpcont:
-                sdsp = bar.close - 2 * self.ctaEngine.Tick_Size[self.vtSymbol]
+                sdsp = self.usr_ma1Arr[-1] * 1.03 - 0 * self.ctaEngine.Tick_Size[self.vtSymbol]
                 orderID = self.sell(sdsp, abs(self.pos))
                 self.orderList.append(orderID)
 
@@ -398,16 +396,16 @@ class MatStrategy(CtaTemplate):
             self.orderList.append(orderID)
 
             # ---------信号平仓----
-            sgn1spcont = bar.high > self.usr_highArr[-2] + atrval*0.0
+            sgn1spcont = 1 or bar.high > self.usr_highArr[-2] + atrval*0.0
             if sgn1spcont:
-                sdsp = self.usr_highArr[-2] + atrval*0.0 # bar.close + 0 * self.ctaEngine.Tick_Size[self.vtSymbol]
+                sdsp = self.usr_highArr[-2] + atrval*0.0  # bar.close + 0 * self.ctaEngine.Tick_Size[self.vtSymbol]
                 orderID = self.cover(sdsp, abs(self.pos), stop=True)
                 self.orderList.append(orderID)
 
             # -------- 获利止盈 ----
-            sgn1tpcont = bar.close < self.usr_ma1Arr[-1] * 0.97
+            sgn1tpcont = 1 or bar.close < self.usr_ma1Arr[-1] * 0.97
             if sgn1tpcont:
-                sdsp = bar.close + 2 * self.ctaEngine.Tick_Size[self.vtSymbol]
+                sdsp = self.usr_ma1Arr[-1] * 0.97 + 0 * self.ctaEngine.Tick_Size[self.vtSymbol]
                 orderID = self.cover(sdsp, abs(self.pos))
                 self.orderList.append(orderID)
 
@@ -448,7 +446,7 @@ if __name__ == '__main__':
     setting = {}
     # ---------数据列表设置
     setting['vada1'] = {'var': '', 'period': 'M115'}
-    setting['vada2'] = {'var': '', 'period': 'M75'}
+    # setting['vada2'] = {'var': '', 'period': 'M75'}
     # setting['vada3'] = {'var': '', 'period': 'd'}
     engine.initStrategy(MatStrategy, setting)
 
