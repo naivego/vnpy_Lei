@@ -31,7 +31,7 @@ from vnpy.trader.vtConstant import *
 from vnpy.trader.vtGateway import VtOrderData, VtTradeData
 from vnpy.trader.vtFunction import loadMongoSetting
 from vnpy.trader.vtEvent import *
-from vnbt_utils import *
+from barLoader import *
 
 ########################################################################
 class BacktestingEngine(object):
@@ -3366,9 +3366,9 @@ class BacktestingEngine(object):
         self.output(u'平均每笔佣金：\t%s' %formatNumber(d['totalCommission']/d['totalResult']))
             
         # 绘图
-        import matplotlib.pyplot as plt
-        import matplotlib.ticker as ticker
-        import numpy as np
+        # import matplotlib.pyplot as plt
+        # import matplotlib.ticker as ticker
+        # import numpy as np
 
         try:
             import seaborn as sns       # 如果安装了seaborn则设置为白色风格
